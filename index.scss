@@ -1,0 +1,95 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(3, 30, 106, 0.836);
+
+    .container {
+        width: 100%;
+        color: #fff;
+        font-family: sans-serif;
+
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .header {
+                .section {
+                    width: 100%;
+                }
+
+                .section {
+                    text-align: center;
+
+                    h6 {
+                        letter-spacing: 4px;
+                    }
+                }
+
+                .inline {
+                    width: 55%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 13px;
+                    padding: 50px;
+                    margin: 0 auto;
+
+                    p {
+                        margin: 10px;
+                    }
+
+                    .ptichki {
+                        margin: 0 20px 10px 10px;
+                    }
+
+                    .box {
+                        background-color: rgba(32, 31, 31, 0.614);
+                        border-radius: 5px;
+                        padding-left: 30px;
+                        margin-right: 25px;
+                        padding: 20px 0 20px 30px ;
+
+                        .btn {
+                            background-color: rgba(14, 142, 233, 0.626);
+                            margin: 5px;
+                            border-radius: 5px;
+                            border-color: transparent;
+                            color: #fff;
+                            padding: 10px 15px;
+                        }
+
+                        .course {
+                            margin-left: 10px;
+                            font-size: xx-large;
+                        }
+
+                        .two {
+                            display: flex;
+                            align-items: center;
+
+                            span {
+                                transform: translateX(100%);
+                                border-radius: 10px;
+                                padding: 10px;
+                                font-size: 12px;
+                                background-color: rgb(12, 146, 3);
+                            }
+                        }
+                    }
+
+                    .box:nth-child(2) {
+                        color: black;
+                        background-color: #fff;
+
+
+                        .btn {
+                            background-color: rgba(255, 42, 0, 0.733);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
